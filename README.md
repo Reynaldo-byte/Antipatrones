@@ -3,7 +3,13 @@
 -H1- ¿Que es un antipatrón?
 ## Tipos de antipatrones:
 ### Codificación
-asd
+- LavaFlow
+- The god
+- Golden Hammer
+- Spaghetti Code
+-
+-
+
 ### Arquitectura
 asd
 ### Administración de proyecto
