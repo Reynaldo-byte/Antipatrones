@@ -51,3 +51,10 @@ Las principales importancias de eliminar código muerto es que ahorra tiempo de 
 En los proyectos de programación grandes, a veces es difícil de reconocer y eliminar código muerto, especialmente cuando algún módulo entero quede muerto.
 
 Algunos entorno de desarrollo integrado o interactivo (como Visual Studio 2010 y Eclipse) poseen la habilidad de detectar código muerto durante tiempo de compilación.
+## 3. Clases Poltergeist (Fantasmas):ghost:
+Se caracteriza por tener varias clases en el sistema o tablas en la base de datos con pocas responsabilidades. Este anti-patrón suele darse cuando un modelo de análisis y/o diseño es inestable: el diseño no suele coincidir con la implementación y ampliar el sistema es poco probable, dado que habiendo tanto “fantasma”, encontrar los elementos relevantes es imposible. Diciendolo coloquialmente seria encontrar una aguja (codigo versatil y de facil ampliación) en un pajar (codigo inutil)
+
+<img src="https://2.bp.blogspot.com/-PCL6O7rk1VY/VlRDmboxKpI/AAAAAAAAAlA/7jf7BOCxQtQ/s1600/aguja%2Bpajar.jpg" width="300">
+### 3.1 ¿Por qué es importante no tener clases fantasmas?
+ Piensalo asi: En una pelicula de terror cuando hay un espiritu en la casa nada funciona como deberia ¿verdad?, lo mismo sucede cuando tenemos clases fantasma tal vez las cosas funcionen por un tiempo pero eventualmente empezaran a fallar
+ ![fantasma](https://i.pinimg.com/564x/46/be/6b/46be6ba4894d79e5e6c299813625e531.jpg)
