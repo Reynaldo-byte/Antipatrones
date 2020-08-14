@@ -52,9 +52,21 @@ En los proyectos de programación grandes, a veces es difícil de reconocer y el
 
 Algunos entorno de desarrollo integrado o interactivo (como Visual Studio 2010 y Eclipse) poseen la habilidad de detectar código muerto durante tiempo de compilación.
 ## 3. Clases Poltergeist (Fantasmas):ghost:
-Se caracteriza por tener varias clases en el sistema o tablas en la base de datos con pocas responsabilidades. Este anti-patrón suele darse cuando un modelo de análisis y/o diseño es inestable: el diseño no suele coincidir con la implementación y ampliar el sistema es poco probable, dado que habiendo tanto “fantasma”, encontrar los elementos relevantes es imposible. Diciendolo coloquialmente seria encontrar una aguja (codigo versatil y de facil ampliación) en un pajar (codigo inutil)
+Se caracteriza por tener varias clases en el sistema o tablas en la base de datos con pocas responsabilidades. Este anti-patrón suele darse cuando un modelo de análisis y/o diseño es inestable: el diseño no suele coincidir con la implementación y ampliar el sistema es poco probable, dado que habiendo tanto “fantasma”, encontrar los elementos relevantes es imposible. Diciendolo coloquialmente seria encontrar una aguja (codigo versatil y de facil ampliación) en un pajar (codigo inutil).
 
 <img src="https://2.bp.blogspot.com/-PCL6O7rk1VY/VlRDmboxKpI/AAAAAAAAAlA/7jf7BOCxQtQ/s1600/aguja%2Bpajar.jpg" width="300">
+
 ### 3.1 ¿Por qué es importante no tener clases fantasmas?
- Piensalo asi: En una pelicula de terror cuando hay un espiritu en la casa nada funciona como deberia ¿verdad?, lo mismo sucede cuando tenemos clases fantasma tal vez las cosas funcionen por un tiempo pero eventualmente empezaran a fallar
- ![fantasma](https://i.pinimg.com/564x/46/be/6b/46be6ba4894d79e5e6c299813625e531.jpg)
+Piensalo asi: En una pelicula de terror cuando hay un espiritu en la casa nada funciona como deberia ¿verdad?, lo mismo sucede cuando tenemos clases fantasma tal vez las cosas funcionen por un tiempo pero eventualmente empezaran a fallar.
+
+ <img src="https://laexuberanciadehades.files.wordpress.com/2013/01/poltergeist1.jpeg" width="300">
+ 
+ ### 3.2 ¿Como evitarlo?
+ Asegurate de no construir sobre un cementerio, es decir si planificas adecuadamente antes de iniciar tu codigo lo mas seguro es que no tengas clases fantasmas.
+ ## 4. Stovepipe (Cocinado en Caliente /Islas) :palm_tree: :stew:
+ “Islas” independientes, y en conflicto unas con otras. Cada isla desarrolla la parte del sistema que necesita para satisfacer sus requerimientos, sin preocuparse por el resto (no existe un plan o eje guía), el escenario resultante implica una pobre o nula interoperabilidad, obviamente, no existe el reuso y, consecuentemente se incrementan costos.En resumen seria algo asi:
+ <img src="https://pics.me.me/cada-quien-hace-una-parte-del-trabajo-y-luego-lo-10908898.png">
+ ### 4.1 ¿Como evitarlo?
+ Planificalo bien, los modulos del sistema necesitan saber que hace el otro o de lo contrario terminara mal y tu objetivo es conseguir un programa que luzca asi :
+ 
+ <img src="https://exp.cdn-hotels.com/hotels/23000000/22470000/22465100/22465082/468a39a9_z.jpg?impolicy=fcrop&w=773&h=530&q=high" width="300" >
