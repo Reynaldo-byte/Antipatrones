@@ -1,4 +1,4 @@
-# ¿Que son los antipatrones de diseño? :neckbeard: :ghost:
+# ¿Que son los antipatrones de diseño? :interrobang: :ghost:
 
 Si aplicamos una **analogía social**, podríamos decir que si a tú, amigo lector, no caes en el anti-patrón (nombrémosle estereotipos) de **criminal**, **terrorista**, **pervertido**, **drogadicto**, **brujo**, **dictador**, y similares, entonces podríamos afirmar que no eres una mala persona. Lo cual no implica, que seas buena; para serlo deberías, no sólo no encajar en los anti-patrones mencionados, sino además, cumplir con uno o más patrones (llamémosle cualidades): **honesto**, **trabajador**, **buen hijo y/o buen padre**, etcétera.
 
