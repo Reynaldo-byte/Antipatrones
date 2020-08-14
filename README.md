@@ -28,7 +28,7 @@ Algo así como la siguiente imagen:
 
 ![morty](images/spa2.jpg)
 
-### ¿Como podemos evitar esto?
+### 1.1 ¿Como podemos evitar esto?
 
 Principalmente, realizando un buen diseño de software desde el principio, una buena técnica para evitar este tipo de código es usar patrones y principios de diseño, haciendo un software con una alta cohesión, es decir que cada modulo tenga mucha relación con sus funcionalidades y mantenga una sola responsabilidad y por otro lado que este código tenga un acoplamiento bajo, es decir que la relación que exista entre sus módulos no sea mucha, esto para evitar muchas dependencias en el código.
 
@@ -46,7 +46,7 @@ Además de consumir tiempo de computo el código muerto puede arrojar excepcione
 
 Las principales importancias de eliminar código muerto es que ahorra tiempo de cómputo innecesario, evita accesos a memoria innecesarios y ejecutar código que no se utilice ya que puede arrojar excepciones.
 
-### ¿Como se puede eliminar este codigo muerto?
+### 2.2 ¿Como se puede eliminar este codigo muerto?
 
 En los proyectos de programación grandes, a veces es difícil de reconocer y eliminar código muerto, especialmente cuando algún módulo entero quede muerto.
 
